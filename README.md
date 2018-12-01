@@ -1,2 +1,2 @@
 # SPM-Shopping
-web线上卖花项目
+web线上卖鞋项目
