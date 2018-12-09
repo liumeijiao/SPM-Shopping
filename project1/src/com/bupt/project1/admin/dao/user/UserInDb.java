@@ -1,7 +1,7 @@
-package com.cskaoyan.project1.admin.dao.user;
+package com.bupt.project1.admin.dao.user;
 
-import com.cskaoyan.project1.bean.User;
-import com.cskaoyan.project1.utils.Dbcp;
+import com.bupt.project1.bean.User;
+import com.bupt.project1.utils.Dbcp;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
 
@@ -11,7 +11,7 @@ import java.util.List;
 public class UserInDb implements UserDao {
     QueryRunner queryRunner= new QueryRunner(Dbcp.getBasicDataSource());
     @Override
-   public int addUser(com.cskaoyan.project1.bean.User user) {
+   public int addUser(com.bupt.project1.bean.User user) {
 
         int update =0;
         try {

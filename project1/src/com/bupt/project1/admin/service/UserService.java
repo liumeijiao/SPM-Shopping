@@ -1,7 +1,7 @@
-package com.cskaoyan.project1.admin.service;
+package com.bupt.project1.admin.service;
 
-import com.cskaoyan.project1.bean.User;
-import com.cskaoyan.project1.admin.dao.user.UserInDb;
+import com.bupt.project1.bean.User;
+import com.bupt.project1.admin.dao.user.UserInDb;
 
 import java.util.List;
 

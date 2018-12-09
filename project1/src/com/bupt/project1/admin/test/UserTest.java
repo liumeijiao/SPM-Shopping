@@ -1,7 +1,7 @@
-package com.cskaoyan.project1.admin.test;
+package com.bupt.project1.admin.test;
 
-import com.cskaoyan.project1.bean.User;
-import com.cskaoyan.project1.admin.dao.user.UserInDb;
+import com.bupt.project1.bean.User;
+import com.bupt.project1.admin.dao.user.UserInDb;
 import org.junit.Test;
 
 import java.text.DateFormat;

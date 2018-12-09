@@ -1,9 +1,9 @@
-package com.cskaoyan.project1.user.controler;
+package com.bupt.project1.user.controler;
 
-import com.cskaoyan.project1.bean.ShoppingItem;
-import com.cskaoyan.project1.bean.User;
-import com.cskaoyan.project1.user.service.SendJMail;
-import com.cskaoyan.project1.user.service.UserService;
+import com.bupt.project1.bean.ShoppingItem;
+import com.bupt.project1.bean.User;
+import com.bupt.project1.user.service.SendJMail;
+import com.bupt.project1.user.service.UserService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

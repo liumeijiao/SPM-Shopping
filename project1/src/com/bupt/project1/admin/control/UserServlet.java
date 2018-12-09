@@ -1,7 +1,7 @@
-package com.cskaoyan.project1.admin.control;
+package com.bupt.project1.admin.control;
 
-import com.cskaoyan.project1.bean.User;
-import com.cskaoyan.project1.admin.service.UserService;
+import com.bupt.project1.bean.User;
+import com.bupt.project1.admin.service.UserService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

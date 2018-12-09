@@ -1,6 +1,6 @@
-package com.cskaoyan.project1.admin.dao.user;
+package com.bupt.project1.admin.dao.user;
 
-import com.cskaoyan.project1.bean.User;
+import com.bupt.project1.bean.User;
 
 import java.util.List;
 

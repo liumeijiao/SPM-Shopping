@@ -1,7 +1,7 @@
-package com.cskaoyan.project1.user.controler;
+package com.bupt.project1.user.controler;
 
-import com.cskaoyan.project1.user.service.ProductService;
-import com.cskaoyan.project1.bean.Product;
+import com.bupt.project1.user.service.ProductService;
+import com.bupt.project1.bean.Product;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

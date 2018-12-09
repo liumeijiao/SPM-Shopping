@@ -1,4 +1,4 @@
-package com.cskaoyan.project1.bean;
+package com.bupt.project1.bean;
 
 import java.util.Date;
 
