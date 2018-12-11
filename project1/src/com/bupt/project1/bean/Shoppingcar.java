@@ -1,4 +1,4 @@
-package com.bupt.project1.admin.control;
+package com.bupt.project1.bean;
 
 public class Shoppingcar {
   int  sid;
