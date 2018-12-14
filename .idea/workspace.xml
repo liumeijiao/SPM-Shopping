@@ -2,41 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55403300-33cd-41ee-9194-b5d96741be5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/ShoppingItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Shoppingcar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/css/ddsmoothmenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/css/orderconfirm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/2co.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/bullets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/cart.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/closelabel.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/nextlabel.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/paypal.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/prevlabel.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/remove_x.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/templatemo_addtocart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/templatemo_body.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/templatemo_body_top.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/templatemo_detail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/templatemo_footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/templatemo_header_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/templatemo_image_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/templatemo_list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/templatemo_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/templatemo_main_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/templatemo_menubar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/templatemo_search_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/images/templatemo_sidebar_header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/js/ddsmoothmenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/js/jquery-1.4.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/js/jquery.nivo.slider.pack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/js/slimbox2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/web/shoppingcart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/AdminFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/AdminServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/admin/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/admin/AdminDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/AdminTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/user/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/user/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/user/UserInDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/user/UserInDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/UserTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,46 +29,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="39" selection-start-column="8" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/web/css/ddsmoothmenu.css">
+        <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/user/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Shoppingcar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="8" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/user/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/bean/ShoppingItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/UserTest.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -116,10 +74,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="268" />
-    <option name="y" value="86" />
+    <option name="x" value="-62" />
+    <option name="y" value="-18" />
     <option name="width" value="1346" />
-    <option name="height" value="698" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -130,130 +88,69 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="project1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="project1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="project1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bupt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="project1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bupt" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
+              <item name="work" type="b2602c69:ProjectViewProjectNode" />
+              <item name="work" type="462c0819:PsiDirectoryNode" />
               <item name="project1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bupt" type="462c0819:PsiDirectoryNode" />
               <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bupt" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="control" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bupt" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bupt" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bupt" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544780760223" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\project1\src\com\bupt\project1\admin\test" />
+      <recent name="D:\work\project1\src\com\bupt\project1\admin\service" />
+      <recent name="D:\work\project1\src\com\bupt\project1\admin\dao" />
+      <recent name="D:\work\project1\src\com\bupt\project1\admin\control" />
       <recent name="G:\A_myproject\SPMMOOC-1\project1\src\com\bupt\project1\bean" />
-      <recent name="G:\A_myproject\SPMMOOC-1\project1\web" />
-      <recent name="G:\A_myproject\SPMMOOC-1\project1\web\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -302,16 +199,17 @@
       <updated>1544351490674</updated>
       <workItem from="1544351492373" duration="143000" />
       <workItem from="1544511585571" duration="43000" />
+      <workItem from="1544780016304" duration="547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2225000" />
+    <option name="totallyTimeSpent" value="2772000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="46" y="576" width="1346" height="688" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2965204" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30948678" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -319,7 +217,6 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.119476266" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
@@ -329,12 +226,12 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.49508196" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.41571194" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3006536" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.48688525" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.48608837" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -344,10 +241,37 @@
       <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
@@ -389,16 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="8" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project1/web/css/ddsmoothmenu.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -416,15 +330,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/user/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="39" selection-start-column="8" selection-end-column="39" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/user/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
