@@ -2,17 +2,81 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SPMMOOC-1" />
+      <artifact name="SPM-Shopping:Web exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55403300-33cd-41ee-9194-b5d96741be5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SPM_Shopping_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/shopping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SPMMOOC_1.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/center.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/down.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPM-Shopping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SPM-Shopping.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/control/AddProductServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/control/AdminFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/control/AdminServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/control/CategoryServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/control/OrderServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/control/ProductServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/control/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/admin/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/admin/AdminDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/category/CategoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/category/Category_db.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/order/OrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/order/orderDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/product/product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/product/productDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/user/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/user/UserInDb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/service/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/test/AdminTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/test/CategoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/test/ProductTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/test/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/test/orderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/Admin1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/Order1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/OrderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/ShoppingItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/Shoppingcar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/multy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/controler/CartServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/controler/MainServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/controler/OrdersServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/controler/ProductsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/controler/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/controler/VerifycodeImgServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/MainDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/MainInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/OrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/OrderDao1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/ProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/ProductInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/UserInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/shoppingDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/shoppingcar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/service/MainService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/service/SendJMail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/service/shoppingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/test/MainTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/test/OrderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/test/ProtestDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/test/UserTe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/test/shoppingT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/utils/Count.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/utils/Dbcp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/utils/PageHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/utils/Transanction.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +86,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/admin/center.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -66,9 +140,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-66" />
+    <option name="x" value="437" />
     <option name="width" value="1346" />
-    <option name="height" value="698" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -84,6 +158,17 @@
             <path>
               <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
@@ -105,7 +190,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545377321429" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shopping" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -161,12 +246,11 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_51\jre" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SPM_Shopping_Web_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="SPM-Shopping:Web exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/SPM_Shopping_Web_exploded" />
+            <option name="CONTEXT_PATH" value="/project1" />
           </settings>
         </artifact>
       </deployment>
@@ -314,6 +398,7 @@
       <workItem from="1545133043425" duration="1520000" />
       <workItem from="1545373388732" duration="1324000" />
       <workItem from="1545374742859" duration="2440000" />
+      <workItem from="1545384473585" duration="778000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1545134029595</created>
@@ -333,12 +418,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9414000" />
+    <option name="totallyTimeSpent" value="10192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3237519" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3290469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -349,7 +434,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.20785597" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -732,6 +817,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/center.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
