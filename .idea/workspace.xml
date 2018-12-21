@@ -1,8 +1,286 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SPMMOOC-1" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="55403300-33cd-41ee-9194-b5d96741be5a" name="Default Changelist" comment="">
+    <list default="true" id="55403300-33cd-41ee-9194-b5d96741be5a" name="Default Changelist" comment="update all">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SPMMOOC_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_annotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/control/AddProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/control/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/product/product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/product/productDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/bean/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/MainDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/MainInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/ProductInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/UserInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/service/SendJMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/utils/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/utils/Dbcp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/utils/PageHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bupt/project1/utils/Transanction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/control/AddProductServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/control/AdminFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/control/AdminServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/control/CategoryServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/control/OrderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/control/ProductServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/control/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/admin/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/admin/AdminDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/category/CategoryDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/category/Category_db.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/order/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/order/orderDB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/product/product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/product/productDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/user/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/dao/user/UserInDb.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/test/AdminTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/test/CategoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/test/ProductTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/test/UserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/admin/test/orderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/Admin1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/Order1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/OrderItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/ShoppingItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/Shoppingcar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/bean/multy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/controler/CartServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/controler/MainServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/controler/OrdersServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/controler/ProductsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/controler/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/controler/VerifycodeImgServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/MainDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/MainInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/OrderDao1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/ProductInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/UserInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/shoppingDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/dao/shoppingcar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/service/MainService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/service/SendJMail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/service/shoppingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/test/MainTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/test/OrderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/test/ProtestDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/test/UserTe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/user/test/shoppingT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/utils/Count.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/utils/Dbcp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/utils/PageHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cskaoyan/project1/utils/Transanction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-pool-1.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.mail-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/new_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/exit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/pwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/right.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/admin/welcome.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SPM-Shopping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SPM-Shopping.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/AdminFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/control/AdminFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/control/AdminServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/CategoryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/control/CategoryServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/OrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/control/OrderServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/control/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/admin/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/admin/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/admin/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/admin/AdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/category/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/category/CategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/category/Category_db.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/category/Category_db.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/order/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/order/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/order/orderDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/order/orderDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/user/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/user/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/user/UserInDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/user/UserInDb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/AdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/test/AdminTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/test/CategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/admin/test/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Admin1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/bean/Admin1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/bean/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Order1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/bean/Order1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/bean/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/ShoppingItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/bean/ShoppingItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Shoppingcar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/bean/Shoppingcar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/multy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/bean/multy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/controler/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/controler/MainServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/controler/ProductsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/controler/ProductsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/controler/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/controler/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/OrderDao1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/OrderDao1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/shoppingDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/shoppingDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/shoppingcar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/shoppingcar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/service/MainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/service/shoppingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bupt/project1/user/service/shoppingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/admin/addAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/admin/addAdmin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/admin/adminList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/admin/adminList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/admin/updateAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/admin/updateAdmin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/category/addCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/addCategory.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/category/categoryList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/categoryList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/category/updateCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/updateCategory.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/css/table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/add.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/add.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/checkcode.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/checkcode.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/del.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/del.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/edit.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/edit.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_01.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_01.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_03.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_03.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_05.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_05.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_06.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_06.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_07.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_07.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_10.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_11.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_13.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_13.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_15.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_17.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_17.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_19.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_19.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_21.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_28.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_28.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_29.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_29.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_30.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_30.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_31.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_31.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_32.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_32.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_34.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_34.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_35.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_43.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_43.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_69.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_69.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_71.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_71.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_72.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_72.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/main_74.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/main_74.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/pass.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/pass.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/quit.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/quit.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/sj.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/sj.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/tab_bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/tab_bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/tb.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/tb.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/images/user.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/images/user.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/js/chili-1.7.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/js/chili-1.7.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/js/jquery.accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/js/jquery.accordion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/js/jquery.dimensions.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/js/jquery.dimensions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/js/jquery.easing.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/js/jquery.easing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/order/orderDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/order/orderDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/order/orderList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/order/orderList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/user/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/user/addUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/admin/user/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/user/userList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/css/ddsmoothmenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/ddsmoothmenu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/css/orderconfirm.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/orderconfirm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/files/2655aa63-df5a-40ed-827a-390c27fc6f09_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/files/2655aa63-df5a-40ed-827a-390c27fc6f09_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/files/26a460a9-71e7-41e8-802c-ee17a263f5d1_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/files/26a460a9-71e7-41e8-802c-ee17a263f5d1_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/files/3161b5a9-d602-43fc-bba9-d2c85f06908e_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/files/3161b5a9-d602-43fc-bba9-d2c85f06908e_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/files/4253e228-2513-4a7a-9566-ba10875a18eb_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/files/4253e228-2513-4a7a-9566-ba10875a18eb_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/files/7fc83f83-8166-414d-a2fa-55dffbe18d6e_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/files/7fc83f83-8166-414d-a2fa-55dffbe18d6e_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/files/8de7311c-0197-4a51-8c39-100410e5ac52_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/files/8de7311c-0197-4a51-8c39-100410e5ac52_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/2co.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/2co.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/arrows.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/bullets.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/bullets.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/cart.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/cart.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/closelabel.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/closelabel.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/nextlabel.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/nextlabel.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/paypal.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/paypal.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/prevlabel.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/prevlabel.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/remove_x.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/remove_x.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/templatemo_addtocart.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/templatemo_addtocart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/templatemo_body.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/templatemo_body.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/templatemo_body_top.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/templatemo_body_top.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/templatemo_detail.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/templatemo_detail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/templatemo_footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/templatemo_footer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/templatemo_header_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/templatemo_header_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/templatemo_image_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/templatemo_image_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/templatemo_list.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/templatemo_list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/templatemo_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/templatemo_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/templatemo_main_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/templatemo_main_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/templatemo_menubar.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/templatemo_menubar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/templatemo_search_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/templatemo_search_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/images/templatemo_sidebar_header.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/templatemo_sidebar_header.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/index_admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index_admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/js/ddsmoothmenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/ddsmoothmenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/js/jquery-1.4.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/jquery-1.4.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/js/jquery.nivo.slider.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/jquery.nivo.slider.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/js/slimbox2.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/slimbox2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/login_admin/cz.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/login_admin/cz.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/login_admin/dl.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/login_admin/dl.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/login_admin/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/login_admin/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/login_admin/login_03.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/login_admin/login_03.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/login_admin/login_04.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/login_admin/login_04.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/login_admin/login_06.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/login_admin/login_06.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/login_admin/login_07.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/login_admin/login_07.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/login_admin/login_08.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/login_admin/login_08.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/login_admin/login_09.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/login_admin/login_09.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/login_admin/login_10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/login_admin/login_10.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/login_admin/login_11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/login_admin/login_11.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/login_admin/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/login_admin/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/myOrders.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/myOrders.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/nivo-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/nivo-slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/placeOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/placeOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/productdetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/productdetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/shoppingcart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/shoppingcart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/templatemo_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/templatemo_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/user/activeUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/activeUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/user/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/user/personal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/personal.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/web/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/regist.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,89 +290,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/CategoryTest.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/OrderServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/user/controler/UserServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="144">
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/order/orderDB.java">
+        <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/control/OrderServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+            <state relative-caret-position="72">
+              <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/web/admin/order/orderList.jsp">
+        <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/service/OrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/web/admin/admin/addAdmin.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/web/myOrders.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/web/login_admin/js.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/web/META-INF/MANIFEST.MF">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state relative-caret-position="324">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Admin1.java">
+        <entry file="file://$PROJECT_DIR$/web/admin/admin/addAdmin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="116">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/bean/ShoppingItem.java">
+        <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/user/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="216">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -119,14 +359,33 @@
         <option value="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Shoppingcar.java" />
         <option value="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/ShoppingItem.java" />
         <option value="$PROJECT_DIR$/project1/web/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/src/com/bupt/project1/admin/control/ProductServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/product/product.java" />
+        <option value="$PROJECT_DIR$/src/com/bupt/project1/admin/test/ProductTest.java" />
+        <option value="$PROJECT_DIR$/src/com/bupt/project1/user/controler/VerifycodeImgServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/bupt/project1/user/dao/MainDao.java" />
+        <option value="$PROJECT_DIR$/src/com/bupt/project1/bean/Product.java" />
+        <option value="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/product/productDao.java" />
+        <option value="$PROJECT_DIR$/src/com/bupt/project1/utils/Dbcp.java" />
+        <option value="$PROJECT_DIR$/src/com/bupt/project1/admin/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/com/bupt/project1/user/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/com/bupt/project1/user/dao/UserInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/bupt/project1/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/com/bupt/project1/admin/service/OrderService.java" />
       </list>
     </option>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-3" />
-    <option name="y" value="22" />
-    <option name="width" value="1518" />
-    <option name="height" value="1008" />
+    <option name="x" value="-66" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -136,48 +395,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bupt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bupt" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
@@ -188,24 +411,33 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545134435928" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545374477092" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15625" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\刘寒\课程\软件项目管理\SPMMOOC-1\project1\src\com\bupt\project1\bean" />
-      <recent name="D:\刘寒\课程\软件项目管理\SPMMOOC-1\project1\web" />
-      <recent name="D:\刘寒\课程\软件项目管理\SPMMOOC-1\project1\web\admin" />
-      <recent name="D:\刘寒\课程\软件项目管理\SPMMOOC-1\project1\src\com\bupt\project1\admin\dao" />
-      <recent name="D:\刘寒\课程\软件项目管理\SPMMOOC-1\project1\src\com\bupt\project1\admin\control" />
+      <recent name="D:\SPMMOOC-1\src\com\bupt\project1\admin\service" />
+      <recent name="D:\SPMMOOC-1\src\com\bupt\project1\user\service" />
+      <recent name="D:\SPMMOOC-1\src\com\bupt\project1\user\dao" />
+      <recent name="D:\SPMMOOC-1\src\com\bupt\project1" />
+      <recent name="D:\SPMMOOC-1\src\com\bupt\project1\bean" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SPMMOOC-1" />
       <recent name="G:\A_myproject\SPMMOOC-1\project1\src\com\bupt\project1\admin\dao" />
       <recent name="G:\A_myproject\SPMMOOC-1\project1\src\com\bupt\project1\admin\service" />
     </key>
@@ -243,6 +475,79 @@
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_51\jre" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/project1/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SPMMOOC-1">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SPMMOOC-1" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60973" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SPMMOOC-1" />
+        </option>
       </method>
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_51\jre">
@@ -324,6 +629,8 @@
       <workItem from="1544511585571" duration="43000" />
       <workItem from="1544780016304" duration="547000" />
       <workItem from="1545133043425" duration="1520000" />
+      <workItem from="1545373388732" duration="1324000" />
+      <workItem from="1545374742859" duration="1663000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1545134029595</created>
@@ -336,12 +643,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5650000" />
+    <option name="totallyTimeSpent" value="8637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3144705" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3237519" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -349,16 +657,16 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.119476266" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.20785597" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.49508196" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.41571194" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25577265" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2536825" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -375,6 +683,41 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Maven" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3237519" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" visible="true" weight="0.20785597" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.49508196" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.41571194" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2536825" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.48608837" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -421,7 +764,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update all" />
+    <option name="LAST_COMMIT_MESSAGE" value="update all" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Test.java" />
@@ -439,40 +783,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/user/controler/MainServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/user/controler/MainServlet.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/user/controler/ProductsServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/user/controler/ProductsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/web/js/slimbox2.js">
+    <entry file="file://$PROJECT_DIR$/web/js/slimbox2.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/web/shoppingcart.jsp">
+    <entry file="file://$PROJECT_DIR$/web/shoppingcart.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/UserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/test/UserTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/shoppingcar.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/user/dao/shoppingcar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/UserServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/control/UserServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="39" selection-start-column="8" selection-end-column="39" />
@@ -482,17 +826,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/web/css/ddsmoothmenu.css">
+    <entry file="file://$PROJECT_DIR$/web/css/ddsmoothmenu.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Shoppingcar.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/bean/Shoppingcar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="25" selection-start-column="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/user/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/dao/user/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
@@ -502,7 +846,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/CategoryServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/control/CategoryServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -511,84 +855,274 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/category/Category_db.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/AdminService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/service/AdminService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/CategoryService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/service/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/bean/ShoppingItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/CategoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/test/CategoryTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/OrderServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/dao/order/orderDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/order/orderDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="432">
           <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/web/admin/order/orderList.jsp">
+    <entry file="file://$PROJECT_DIR$/web/admin/order/orderList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="504">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/web/admin/admin/addAdmin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/shopping_war_exploded/js/slimbox2.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/web/myOrders.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/web/login_admin/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/web/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Admin1.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/bean/Admin1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login_admin/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/myOrders.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/control/ProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/dao/product/product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/test/ProductTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/user/controler/VerifycodeImgServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/user/dao/MainDao.java" />
+    <entry file="file://$PROJECT_DIR$/web/admin/admin/js/jquery.js" />
+    <entry file="file://$PROJECT_DIR$/web/admin/addAdmin.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/admin/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/bean/ShoppingItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/bean/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/utils/Dbcp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/dao/category/Category_db.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/control/AddProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/dao/product/productDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/user/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/user/dao/UserInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/test/AdminTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/user/controler/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/control/OrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bupt/project1/admin/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/admin/addAdmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SPMMOOC-1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0_191</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SPM-Shopping</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>javax.annotation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

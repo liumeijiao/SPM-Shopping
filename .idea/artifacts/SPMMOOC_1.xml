@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SPMMOOC-1">
+    <output-path>$PROJECT_DIR$/out/artifacts/SPMMOOC_1</output-path>
+    <root id="root" />
+  </artifact>
+</component>
