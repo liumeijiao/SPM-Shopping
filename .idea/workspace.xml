@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spmmooc-1.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="287" column="11" selection-start-line="287" selection-start-column="11" selection-end-line="287" selection-end-column="11" />
+            <state relative-caret-position="319">
+              <caret line="288" column="4" lean-forward="true" selection-start-line="288" selection-start-column="4" selection-end-line="288" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -120,12 +120,6 @@
             </path>
             <path>
               <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-              <item name="project1" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -146,7 +140,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545464060571" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545464270860" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/project1/ant" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15625" />
@@ -358,7 +352,7 @@
       <workItem from="1545374742859" duration="2440000" />
       <workItem from="1545384473585" duration="972000" />
       <workItem from="1545385503548" duration="1165000" />
-      <workItem from="1545446994008" duration="6751000" />
+      <workItem from="1545446994008" duration="6998000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1545134029595</created>
@@ -402,14 +396,22 @@
       <option name="project" value="LOCAL" />
       <updated>1545463044918</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add war">
+      <created>1545464092203</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545464092204</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18302000" />
+    <option name="totallyTimeSpent" value="18549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859944" visible="true" weight="0.13691376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -530,7 +532,8 @@
     <MESSAGE value="," />
     <MESSAGE value="add root" />
     <MESSAGE value="add ant" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ant" />
+    <MESSAGE value="add war" />
+    <option name="LAST_COMMIT_MESSAGE" value="add war" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/user/controler/ProductsServlet.java">
@@ -824,8 +827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spmmooc-1.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="287" column="11" selection-start-line="287" selection-start-column="11" selection-end-line="287" selection-end-column="11" />
+        <state relative-caret-position="319">
+          <caret line="288" column="4" lean-forward="true" selection-start-line="288" selection-start-column="4" selection-end-line="288" selection-end-column="4" />
         </state>
       </provider>
     </entry>
