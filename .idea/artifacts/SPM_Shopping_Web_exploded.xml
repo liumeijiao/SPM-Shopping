@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="SPM-Shopping:Web exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/SPM_Shopping_Web_exploded</output-path>
+    <output-path>$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="SPM-Shopping/web/Web" />
       <element id="directory" name="WEB-INF">
@@ -9,6 +9,8 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="module" name="JUnit4" module-name="SPM-Shopping" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="lib1" />
         </element>
       </element>
     </root>

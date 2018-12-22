@@ -101,8 +101,8 @@ body {
     </li>
     <li> <a class="head">版本信息</a>
       <ul>
-        <li><a href="${pageContext.request.contextPath }/admin/welcome.jsp"  target="rightFrame">版本号</a></li>
-        <li><a href="${pageContext.request.contextPath }/admin/welcome.jsp"  target="rightFrame">联系我们</a></li>
+        <li><a href="${pageContext.request.contextPath }/admin/welcome.jsp" target="rightFrame">版本号</a></li>
+        <li><a href="${pageContext.request.contextPath }/admin/welcome.jsp" target="rightFrame">联系我们</a></li>
         
       </ul>
     </li>

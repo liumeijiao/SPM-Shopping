@@ -1,23 +1,23 @@
-index_admin.jsp<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Shoes Store, free template</title>
-<meta name="keywords" content="shoes store, free template, ecommerce, online shop, website templates, CSS, HTML" />
-<meta name="description" content="Shoes Store is a free ecommerce template provided " />
+<title>Shoes Store - Products</title>
+<meta name="keywords" content="shoes store, products, free template, ecommerce, online shopping, website templates, CSS, HTML" />
+<meta name="description" content="Shoes Store, Products, free shopping template provided " />
 <link href="templatemo_style.css" rel="stylesheet" type="text/css" />
-
-<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
 
 <link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/ddsmoothmenu.js">
+
+
 
 </script>
 
@@ -43,12 +43,12 @@ ddsmoothmenu.init({
 <div id="templatemo_wrapper">
 	
 	<div id="templatemo_header">
-    	<div id="site_title"><h1><a href="${pageContext.request.contextPath }/index.jsp">Online Flower Store</a></h1></div>
+    	<div id="site_title"><h1><a href="http://localhost/${pageContext.request.contextPath }">Online Shoes Store</a></h1></div>
         <div id="header_right">
         	<p>
         	<c:if test="${!empty user }">
-		        <a href="${pageContext.request.contextPath }/user/personal.jsp">我的个人中心</a> |
-        	</c:if>
+	        	<a href="${pageContext.request.contextPath }/user/personal.jsp">我的个人中心</a> |
+	        </c:if>
 	        <a href="${pageContext.request.contextPath }/CartServlet?op=findCart">购物车</a> | 
 	        <c:if test="${empty user }">
 	        	<a href="${pageContext.request.contextPath }/user/login.jsp">登录</a> |
@@ -77,7 +77,6 @@ ddsmoothmenu.init({
             </form>
         </div>
     </div> <!-- END of templatemo_menubar -->
-	<div class="copyrights">Collect from <a href="#" title="Web商城">Web商城</a></div>
     
     <div id="templatemo_main">
     	<div id="sidebar" class="float_l">
@@ -85,7 +84,7 @@ ddsmoothmenu.init({
             	<h3>品牌</h3>   
                 <div class="content"> 
                 	<ul class="sidebar_list">
-                		<c:forEach items="${categories}" var="category" varStatus="vs">
+                    	<c:forEach items="${categories }" var="category" varStatus="vs">
                 			<c:if test="${vs.index !=0}">
                 				<c:if test="${vs.index != fn:length(categories)-1 }">
                 					<li>
@@ -108,41 +107,22 @@ ddsmoothmenu.init({
                 </div>
             </div>
         </div>
-        
         <div id="content" class="float_r">
-        	<div id="slider-wrapper">
-                <div id="slider" class="nivoSlider">
-                	<c:forEach items="${productTop}" var="product">
-                		<img src="${product.imgurl }" style="width: 680px;height: 300px" alt="" title="${product.pname }"/>
-                	</c:forEach>
-                </div>
-                <div id="htmlcaption" class="nivo-html-caption">
-                    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
-                </div>
-            </div>
-            <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
-            <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
-            <script type="text/javascript">
-            $(window).load(function() {
-                $('#slider').nivoSlider();
-            });
-            </script>
-            
-        	<h3>热门商品</h3>
-        	<c:forEach items="${hotProducts}" var="product" varStatus="vs">
+        	
+        	<span><h3  style="width:600px;heigth=40px;background: #EEEEEE; padding: 10px"> Products </h3></span>
+        	<%--requestScope.--%>
+        	<c:forEach items="${products }" var="product" varStatus="vs">
         		<div class="${vs.index % 3 != 2?'product_box':'product_box no_margin_right' }">
-		            <h3>${product.pname }</h3>
 	            	<a href="${pageContext.request.contextPath }/ProductsServlet?op=findProductById&pid=${product.pid}">
 	            		<img src="${product.imgurl }" width="200" height="150" alt="" title="${product.pname }"/>
 	            	</a>
-	                <p style="width: 200px;overflow: hidden;white-space: nowrap; text-overflow: ellipsis;">${product.descp }</p>
+	                <p>${product.pname }</p>
 	                <p class="product_price">￥ ${product.estoreprice }</p>
 	                <c:if test="${empty user }">
 	                	<a href="javascript:login()" class="addtocart"></a>
 	                </c:if>
 	                <c:if test="${!empty user }">
-
-						<a href="javascript:addCart('${product.pid }',${user.uid})" class="addtocart"></a>
+	                	<a href="javascript:addCart('${product.pid }',${user.uid})" class="addtocart"></a>
 	                </c:if>
 	                <a href="${pageContext.request.contextPath }/ProductsServlet?op=findProductById&pid=${product.pid}" class="detail"></a>
             	</div>
@@ -156,17 +136,18 @@ ddsmoothmenu.init({
     
     <div id="templatemo_footer">
     	Copyright (c) 2016 <a href="#">Web商城</a> | <a href="#">Web工作室</a>
-    </div>
-</div>
-</div>
+    </div> <!-- END of templatemo_footer -->
+    
+</div> <!-- END of templatemo_wrapper -->
+</div> <!-- END of templatemo_body_wrapper -->
 	<script type="text/javascript">
 		function login(){
 			alert("请先登录");
-			window.location.href="${pageContext.request.contextPath}/user/login.jsp";
+			window.location.href="user/login.jsp";
 		}
-        function addCart(pid,uid){
-            window.location.href="${pageContext.request.contextPath}/CartServlet?op=addCart&pid="+pid+"&uid="+uid+"&snum=1";
-        }
+		function addCart(pid,uid){
+			window.location.href="${pageContext.request.contextPath}/CartServlet?op=addCart&pid="+pid+"&uid="+uid+"&snum=1";
+		}
 	</script>
 </body>
 </html>
