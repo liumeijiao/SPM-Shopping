@@ -31,22 +31,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spmmooc-1.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spmmooc-1.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="289" column="18" selection-start-line="289" selection-start-column="18" selection-end-line="289" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -116,7 +101,7 @@
             <path>
               <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-              <item name="__artifacts_temp" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
@@ -140,9 +125,9 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545465636994" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545466557913" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/project1/ant" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -353,7 +338,7 @@
       <workItem from="1545374742859" duration="2440000" />
       <workItem from="1545384473585" duration="972000" />
       <workItem from="1545385503548" duration="1165000" />
-      <workItem from="1545446994008" duration="8296000" />
+      <workItem from="1545446994008" duration="9135000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1545134029595</created>
@@ -411,11 +396,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545464318165</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add build.xml">
+      <created>1545465687444</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1545465687444</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19847000" />
+    <option name="totallyTimeSpent" value="20686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -540,7 +532,8 @@
     <MESSAGE value="add root" />
     <MESSAGE value="add ant" />
     <MESSAGE value="add war" />
-    <option name="LAST_COMMIT_MESSAGE" value="add war" />
+    <MESSAGE value="add build.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="add build.xml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/user/controler/ProductsServlet.java">
@@ -829,15 +822,15 @@
     <entry file="file://$PROJECT_DIR$/project1/build.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spmmooc-1.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/spmmooc-1.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="289" column="18" selection-start-line="289" selection-start-column="18" selection-end-line="289" selection-end-column="18" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spmmooc-1.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
