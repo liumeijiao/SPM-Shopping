@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SPM-Shopping:Web">
+    <output-path>$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web</output-path>
+    <root id="archive" name="SPM-Shopping_Web.war">
+      <element id="artifact" artifact-name="SPM-Shopping:Web exploded" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
