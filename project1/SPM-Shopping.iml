@@ -31,5 +31,6 @@
     </orderEntry>
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" name="lib1" level="project" />
+    <orderEntry type="library" name="ant" level="project" />
   </component>
 </module>

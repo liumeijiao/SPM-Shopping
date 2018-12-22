@@ -7,225 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55403300-33cd-41ee-9194-b5d96741be5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/project1/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/.idea/libraries/lib1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project1/build.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SPM_Shopping_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project1/.idea/artifacts/SPM_Shopping_Web_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/shopping.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project1/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project1/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javax_annotation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project1/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPM-Shopping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project1/SPM-Shopping.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/lib/javax.annotation.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/lib/javax.ejb.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/lib/javax.jms.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/lib/javax.persistence.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.resource.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/lib/javax.resource.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/lib/javax.servlet.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/lib/javax.servlet.jsp.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/lib/javax.transaction.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/control/AddProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/AddProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/control/AdminFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/AdminFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/control/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/AdminServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/control/CategoryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/CategoryServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/control/OrderServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/OrderServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/control/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/ProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/control/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/admin/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/admin/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/admin/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/admin/AdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/category/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/category/CategoryDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/category/Category_db.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/category/Category_db.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/order/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/order/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/order/orderDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/order/orderDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/product/product.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/product/product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/product/productDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/product/productDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/user/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/user/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/dao/user/UserInDb.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/dao/user/UserInDb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/test/AdminTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/AdminTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/test/CategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/CategoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/admin/test/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/bean/Admin1.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Admin1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/bean/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/bean/Order1.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Order1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/bean/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/bean/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/bean/ShoppingItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/ShoppingItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/bean/Shoppingcar.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Shoppingcar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/bean/multy.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/bean/multy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/controler/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/controler/MainServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/controler/ProductsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/controler/ProductsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/controler/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/controler/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/MainDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/MainDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/MainInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/MainInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/OrderDao1.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/OrderDao1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/ProductInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/ProductInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/UserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/shoppingDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/shoppingDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/dao/shoppingcar.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/shoppingcar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/service/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/service/MainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/service/SendJMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/service/SendJMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/user/service/shoppingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/user/service/shoppingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/utils/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/utils/Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/utils/Dbcp.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/utils/Dbcp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/utils/PageHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/utils/PageHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bupt/project1/utils/Transanction.java" beforeDir="false" afterPath="$PROJECT_DIR$/project1/src/com/bupt/project1/utils/Transanction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/WEB-INF/lib/commons-dbutils-1.4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/WEB-INF/lib/commons-io-2.4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-pool-1.5.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/WEB-INF/lib/commons-pool-1.5.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/javax.mail-1.5.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/WEB-INF/lib/javax.mail-1.5.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/WEB-INF/lib/mysql-connector-java-8.0.11.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/new_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/WEB-INF/new_words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/admin/addAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/admin/addAdmin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/admin/adminList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/admin/adminList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/admin/updateAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/admin/updateAdmin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/category/addCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/category/addCategory.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/category/categoryList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/category/categoryList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/category/updateCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/category/updateCategory.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/center.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/css/table.css" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/css/table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/down.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/down.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/exit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/exit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/add.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/add.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/checkcode.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/checkcode.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/del.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/del.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/edit.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/edit.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_01.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_01.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_03.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_03.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_05.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_05.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_06.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_06.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_07.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_07.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_10.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_11.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_13.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_13.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_15.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_17.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_17.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_19.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_19.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_21.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_28.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_28.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_29.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_29.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_30.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_30.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_31.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_31.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_32.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_32.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_34.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_34.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_35.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_43.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_43.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_69.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_69.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_71.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_71.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_72.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_72.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/main_74.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/main_74.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/pass.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/pass.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/quit.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/quit.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/sj.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/sj.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/tab_bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/tab_bg.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/tb.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/tb.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/images/user.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/images/user.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/js/chili-1.7.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/js/chili-1.7.pack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/js/jquery.accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/js/jquery.accordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/js/jquery.dimensions.js" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/js/jquery.dimensions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/js/jquery.easing.js" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/js/jquery.easing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/order/orderDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/order/orderDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/order/orderList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/order/orderList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/pwd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/pwd.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/right.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/right.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/user/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/user/addUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/user/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/user/userList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/ddsmoothmenu.css" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/css/ddsmoothmenu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/orderconfirm.css" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/css/orderconfirm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/files/2655aa63-df5a-40ed-827a-390c27fc6f09_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/files/2655aa63-df5a-40ed-827a-390c27fc6f09_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/files/26a460a9-71e7-41e8-802c-ee17a263f5d1_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/files/26a460a9-71e7-41e8-802c-ee17a263f5d1_6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/files/3161b5a9-d602-43fc-bba9-d2c85f06908e_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/files/3161b5a9-d602-43fc-bba9-d2c85f06908e_8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/files/4253e228-2513-4a7a-9566-ba10875a18eb_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/files/4253e228-2513-4a7a-9566-ba10875a18eb_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/files/7fc83f83-8166-414d-a2fa-55dffbe18d6e_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/files/7fc83f83-8166-414d-a2fa-55dffbe18d6e_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/files/8de7311c-0197-4a51-8c39-100410e5ac52_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/files/8de7311c-0197-4a51-8c39-100410e5ac52_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/2co.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/2co.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/arrows.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/bullets.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/bullets.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/cart.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/cart.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/closelabel.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/closelabel.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/loading.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/nextlabel.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/nextlabel.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/paypal.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/paypal.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/prevlabel.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/prevlabel.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/remove_x.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/remove_x.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/templatemo_addtocart.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/templatemo_addtocart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/templatemo_body.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/templatemo_body.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/templatemo_body_top.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/templatemo_body_top.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/templatemo_detail.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/templatemo_detail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/templatemo_footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/templatemo_footer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/templatemo_header_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/templatemo_header_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/templatemo_image_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/templatemo_image_01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/templatemo_list.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/templatemo_list.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/templatemo_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/templatemo_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/templatemo_main_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/templatemo_main_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/templatemo_menubar.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/templatemo_menubar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/templatemo_search_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/templatemo_search_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/templatemo_sidebar_header.png" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/images/templatemo_sidebar_header.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index_admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/index_admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/ddsmoothmenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/js/ddsmoothmenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/jquery-1.4.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/js/jquery-1.4.3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/jquery.nivo.slider.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/js/jquery.nivo.slider.pack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/slimbox2.js" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/js/slimbox2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login_admin/cz.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/login_admin/cz.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login_admin/dl.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/login_admin/dl.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login_admin/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/login_admin/js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login_admin/login_03.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/login_admin/login_03.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login_admin/login_04.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/login_admin/login_04.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login_admin/login_06.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/login_admin/login_06.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login_admin/login_07.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/login_admin/login_07.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login_admin/login_08.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/login_admin/login_08.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login_admin/login_09.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/login_admin/login_09.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login_admin/login_10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/login_admin/login_10.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login_admin/login_11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/login_admin/login_11.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login_admin/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/login_admin/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/myOrders.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/myOrders.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/nivo-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/nivo-slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/placeOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/placeOrder.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/productdetail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/productdetail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/products.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/shoppingcart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/shoppingcart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/templatemo_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/templatemo_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/activeUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/user/activeUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/user/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/user/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/personal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/user/personal.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/user/regist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/user/regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SPM_Shopping_Web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-antlr.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-apache-bcel.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-apache-bsf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-apache-log4j.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-apache-oro.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-apache-regexp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-apache-resolver.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-apache-xalan2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-commons-logging.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-commons-net.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-jai.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-javamail.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-jdepend.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-jmf.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-jsch.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-junit.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-junit4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-launcher.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-netrexx.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant-testutil.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/ant.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/ant/libraries.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/SPM-Shopping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project1/SPM-Shopping.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/build.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -249,7 +60,22 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spmmooc-1.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spmmooc-1.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="242" column="10" lean-forward="true" selection-start-line="242" selection-start-column="10" selection-end-line="242" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -282,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/com/bupt/project1/user/dao/UserInterface.java" />
         <option value="$PROJECT_DIR$/src/com/bupt/project1/user/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/com/bupt/project1/admin/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/project1/build.xml" />
+        <option value="$PROJECT_DIR$/spmmooc-1.xml" />
       </list>
     </option>
   </component>
@@ -293,8 +121,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="22" />
-    <option name="y" value="-23" />
+    <option name="x" value="495" />
+    <option name="y" value="23" />
     <option name="width" value="1346" />
     <option name="height" value="728" />
   </component>
@@ -333,29 +161,32 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="spmmooc-1" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545449542664" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545462838982" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project1/ant" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15625" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SPMMOOC-1\project1\ant" />
       <recent name="D:\SPMMOOC-1\web\admin\category" />
       <recent name="D:\SPMMOOC-1\web\admin" />
       <recent name="D:\SPMMOOC-1\src\com\bupt\project1\admin\service" />
       <recent name="D:\SPMMOOC-1\src\com\bupt\project1\user\service" />
-      <recent name="D:\SPMMOOC-1\src\com\bupt\project1\user\dao" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SPMMOOC-1\project1" />
       <recent name="D:\SPMMOOC-1" />
+      <recent name="D:\SPMMOOC-1\project1" />
       <recent name="G:\A_myproject\SPMMOOC-1\project1\src\com\bupt\project1\admin\dao" />
       <recent name="G:\A_myproject\SPMMOOC-1\project1\src\com\bupt\project1\admin\service" />
     </key>
@@ -550,7 +381,7 @@
       <workItem from="1545374742859" duration="2440000" />
       <workItem from="1545384473585" duration="972000" />
       <workItem from="1545385503548" duration="1165000" />
-      <workItem from="1545446994008" duration="2094000" />
+      <workItem from="1545446994008" duration="5929000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1545134029595</created>
@@ -580,16 +411,23 @@
       <option name="project" value="LOCAL" />
       <updated>1545447546878</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add root">
+      <created>1545449645821</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545449645821</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13645000" />
+    <option name="totallyTimeSpent" value="17480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859944" visible="true" weight="0.20726173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859944" visible="true" weight="0.13691376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -597,10 +435,10 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" sideWeight="0.5014006" side_tool="true" weight="0.20726173" />
-      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.5057283" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.5057283" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.492635" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.101472996" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -706,19 +544,10 @@
     <MESSAGE value="update" />
     <MESSAGE value="update all" />
     <MESSAGE value="," />
-    <option name="LAST_COMMIT_MESSAGE" value="," />
+    <MESSAGE value="add root" />
+    <option name="LAST_COMMIT_MESSAGE" value="add root" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project1/SPM-Shopping.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/user/controler/MainServlet.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/user/controler/ProductsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -1005,17 +834,28 @@
     <entry file="file://$PROJECT_DIR$/project1/build.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/spmmooc-1.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spmmooc-1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="242" column="10" lean-forward="true" selection-start-line="242" selection-start-column="10" selection-end-line="242" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>SPM-Shopping:Web exploded</last-edited>
+          <last-edited>SPM-Shopping:Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1070,7 +910,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib1</last-edited>
+          <last-edited>ant</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
