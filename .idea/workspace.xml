@@ -2,12 +2,304 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SPM-Shopping:Web exploded" />
+      <artifact name="SPMOOC-1" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55403300-33cd-41ee-9194-b5d96741be5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SPMMOOC-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SPMOOC_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/web/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/web/admin/product/searchProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project1/web/admin/product/updateProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SPM_Shopping_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/ant.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/SPM-Shopping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SPMMOOC-1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web/SPM-Shopping_Web.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/control/AddProductServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/control/AdminFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/control/AdminServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/control/CategoryServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/control/OrderServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/control/ProductServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/control/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/dao/admin/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/dao/admin/AdminDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/dao/category/CategoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/dao/category/Category_db.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/dao/order/OrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/dao/order/orderDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/dao/product/product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/dao/product/productDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/dao/user/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/dao/user/UserInDb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/service/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/test/AdminTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/test/CategoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/admin/test/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/bean/Admin1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/bean/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/bean/Order1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/bean/OrderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/bean/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/bean/ShoppingItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/bean/Shoppingcar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/bean/multy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/controler/MainServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/controler/ProductsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/controler/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/dao/MainDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/dao/MainInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/dao/OrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/dao/OrderDao1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/dao/ProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/dao/ProductInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/dao/UserInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/dao/shoppingDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/dao/shoppingcar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/service/MainService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/service/SendJMail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/user/service/shoppingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/utils/Count.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/utils/Dbcp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/utils/PageHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/classes/com/bupt/project1/utils/Transanction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/commons-beanutils-1.8.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/commons-dbcp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/commons-dbutils-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/commons-pool-1.5.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/javax.annotation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/javax.ejb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/javax.jms.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/javax.mail-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/javax.persistence.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/javax.resource.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/javax.servlet.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/javax.servlet.jsp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/javax.transaction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/new_words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/admin/addAdmin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/admin/adminList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/admin/updateAdmin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/category/categoryList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/category/updateCategory.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/center.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/css/table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/down.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/exit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/add.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/checkcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/del.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/edit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_01.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_03.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_05.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_06.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_07.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_72.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/main_74.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/pass.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/quit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/sj.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/tab_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/tb.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/images/user.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/js/chili-1.7.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/js/jquery.accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/js/jquery.dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/js/jquery.easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/left.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/order/orderDetails.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/order/orderList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/product/productList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/pwd.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/right.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/user/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/product/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/user/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/project1/web/admin/product/MultSele.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/admin/welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/css/ddsmoothmenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/css/orderconfirm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/files/2655aa63-df5a-40ed-827a-390c27fc6f09_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/files/26a460a9-71e7-41e8-802c-ee17a263f5d1_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/files/3161b5a9-d602-43fc-bba9-d2c85f06908e_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/files/4253e228-2513-4a7a-9566-ba10875a18eb_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/files/7fc83f83-8166-414d-a2fa-55dffbe18d6e_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/files/8de7311c-0197-4a51-8c39-100410e5ac52_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/2co.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/bullets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/cart.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/closelabel.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/nextlabel.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/paypal.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/prevlabel.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/remove_x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/templatemo_addtocart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/templatemo_body.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/templatemo_body_top.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/templatemo_detail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/templatemo_footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/templatemo_header_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/templatemo_image_01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/templatemo_list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/templatemo_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/templatemo_main_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/templatemo_menubar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/templatemo_search_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/images/templatemo_sidebar_header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/index_admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/js/ddsmoothmenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/js/jquery-1.4.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/js/jquery.nivo.slider.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/js/slimbox2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/login_admin/cz.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/login_admin/dl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/login_admin/js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/login_admin/login_03.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/login_admin/login_04.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/login_admin/login_06.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/login_admin/login_07.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/login_admin/login_08.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/login_admin/login_09.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/login_admin/login_10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/login_admin/login_11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/login_admin/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/myOrders.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/nivo-slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/placeOrder.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/productdetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/products.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/shoppingcart.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/templatemo_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/user/activeUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/user/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/user/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/user/personal.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/user/regist.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/web.xml/lib/commons-beanutils-1.8.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/web.xml/lib/commons-dbcp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/web.xml/lib/commons-dbutils-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/web.xml/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/web.xml/lib/commons-io-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/web.xml/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/web.xml/lib/commons-pool-1.5.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/web.xml/lib/javax.mail-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/web.xml/lib/javax.servlet.jsp.jstl-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/web.xml/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/web.xml/lib/mysql-connector-java-8.0.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/web.xml/new_words.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPM_Shopping_Web_exploded/web.xml/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/control/AddProductServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/control/AdminFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/control/AdminServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/control/CategoryServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/control/OrderServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/control/ProductServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/control/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/dao/admin/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/dao/admin/AdminDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/dao/category/CategoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/dao/category/Category_db.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/dao/order/OrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/dao/order/orderDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/dao/product/product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/dao/product/productDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/dao/user/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/dao/user/UserInDb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/service/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/test/AdminTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/test/CategoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/admin/test/UserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/bean/Admin1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/bean/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/bean/Order1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/bean/OrderItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/bean/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/bean/ShoppingItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/bean/Shoppingcar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/bean/multy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/controler/MainServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/controler/ProductsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/controler/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/dao/MainDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/dao/MainInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/dao/OrderDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/dao/OrderDao1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/dao/ProductDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/dao/ProductInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/dao/UserInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/dao/shoppingDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/dao/shoppingcar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/service/MainService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/service/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/service/SendJMail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/user/service/shoppingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/utils/Count.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/utils/Dbcp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/utils/PageHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/production/SPM-Shopping/com/bupt/project1/utils/Transanction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spmmooc-1.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,16 +319,35 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="project1@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="project1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="project1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="project1: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.xml">
+        <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/CategoryServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="283" column="11" lean-forward="true" selection-start-line="283" selection-start-column="11" selection-end-line="283" selection-end-column="11" />
+            <state relative-caret-position="-2">
+              <caret line="73" column="53" lean-forward="true" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,6 +387,7 @@
         <option value="$PROJECT_DIR$/src/com/bupt/project1/admin/service/OrderService.java" />
         <option value="$PROJECT_DIR$/project1/build.xml" />
         <option value="$PROJECT_DIR$/spmmooc-1.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -87,8 +399,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="495" />
-    <option name="y" value="23" />
+    <option name="x" value="6" />
+    <option name="y" value="-8" />
     <option name="width" value="1346" />
     <option name="height" value="728" />
   </component>
@@ -100,7 +412,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,12 +421,18 @@
             </path>
             <path>
               <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -130,27 +447,28 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545468355945" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545570828703" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project1/web" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15625" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.25694445" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SPMMOOC-1" />
+      <recent name="D:\SPMMOOC-1\war" />
+      <recent name="D:\SPMMOOC-1\project1" />
+      <recent name="G:\A_myproject\SPMMOOC-1\project1\src\com\bupt\project1\admin\dao" />
+      <recent name="G:\A_myproject\SPMMOOC-1\project1\src\com\bupt\project1\admin\service" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\SPMMOOC-1\project1\ant" />
       <recent name="D:\SPMMOOC-1\web\admin\category" />
       <recent name="D:\SPMMOOC-1\web\admin" />
       <recent name="D:\SPMMOOC-1\src\com\bupt\project1\admin\service" />
       <recent name="D:\SPMMOOC-1\src\com\bupt\project1\user\service" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\SPMMOOC-1\war" />
-      <recent name="D:\SPMMOOC-1" />
-      <recent name="D:\SPMMOOC-1\project1" />
-      <recent name="G:\A_myproject\SPMMOOC-1\project1\src\com\bupt\project1\admin\dao" />
-      <recent name="G:\A_myproject\SPMMOOC-1\project1\src\com\bupt\project1\admin\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -189,9 +507,10 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_51\jre" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/project1" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SPM-Shopping:Web exploded">
+        <artifact name="SPMOOC-1">
           <settings>
             <option name="CONTEXT_PATH" value="/project1" />
           </settings>
@@ -256,7 +575,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SPM-Shopping:Web exploded" />
+          <artifact name="SPMOOC-1" />
         </option>
       </method>
     </configuration>
@@ -343,7 +662,10 @@
       <workItem from="1545374742859" duration="2440000" />
       <workItem from="1545384473585" duration="972000" />
       <workItem from="1545385503548" duration="1165000" />
-      <workItem from="1545446994008" duration="10833000" />
+      <workItem from="1545446994008" duration="11459000" />
+      <workItem from="1545568049828" duration="1879000" />
+      <workItem from="1545569974994" duration="985000" />
+      <workItem from="1545571004994" duration="2016000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1545134029595</created>
@@ -436,16 +758,24 @@
       <option name="project" value="LOCAL" />
       <updated>1545468003287</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add build.xml">
+      <created>1545468369100</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1545468369100</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22384000" />
+    <option name="totallyTimeSpent" value="27890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859944" visible="true" weight="0.1732224" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859944" visible="true" weight="0.19364598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -456,7 +786,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.5057283" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.09492635" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -464,10 +794,11 @@
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.41571194" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2536825" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.48608837" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.3289689" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -480,18 +811,18 @@
       <window_info anchor="right" id="Maven" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33963692" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49859944" visible="true" weight="0.17776097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.20785597" />
+      <window_info id="Web" order="7" sideWeight="0.5014006" side_tool="true" weight="0.20726173" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.5057283" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.48772505" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.42716858" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -499,10 +830,11 @@
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.41571194" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.2536825" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.48608837" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.3289689" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -570,42 +902,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add build.xml" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project1/web/js/slimbox2.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/web/shoppingcart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/test/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/user/dao/shoppingcar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/UserServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="8" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/web/css/ddsmoothmenu.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/bean/Shoppingcar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -829,40 +1125,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/utils/Dbcp.java">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+    <entry file="file://$PROJECT_DIR$/spmmooc-1.properties" />
+    <entry file="file://$PROJECT_DIR$/build.xml" />
+    <entry file="das://7feb04fd-9212-4e80-8f2b-cc92e2e719d2/schema/project1/table/category">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
-          <caret lean-forward="true" />
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/CategoryServlet.java">
+    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/utils/Dbcp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="70" column="22" lean-forward="true" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        <state relative-caret-position="315">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project1/build.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spmmooc-1.properties">
+    <entry file="file://$PROJECT_DIR$/project1/build.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="228">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
+    <entry file="file://$PROJECT_DIR$/.idea/SPMMOOC-1.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="283" column="11" lean-forward="true" selection-start-line="283" selection-start-column="11" selection-end-line="283" selection-end-column="11" />
+        <state relative-caret-position="252">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPMMOOC-1.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/web/admin/product/MultSele.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project1/src/com/bupt/project1/admin/control/CategoryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="73" column="53" lean-forward="true" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -872,11 +1204,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>SPM-Shopping:Web exploded</last-edited>
+          <last-edited>SPMOOC-1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25694445" />
                 <option value="0.5" />
               </list>
             </option>
@@ -885,11 +1217,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (SPM-Shopping)|Web</last-edited>
+          <last-edited>Web (SPMMOOC-1)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25694445" />
               </list>
             </option>
           </splitter-proportions>
@@ -900,7 +1232,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.15856482" />
               </list>
             </option>
           </splitter-proportions>
@@ -912,7 +1244,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.15856482" />
               </list>
             </option>
           </splitter-proportions>
@@ -920,11 +1252,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|SPM-Shopping</last-edited>
+          <last-edited>Web|SPMMOOC-1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.25694445" />
               </list>
             </option>
           </splitter-proportions>
@@ -932,11 +1264,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>ant</last-edited>
+          <last-edited>lib3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21180555" />
               </list>
             </option>
           </splitter-proportions>
