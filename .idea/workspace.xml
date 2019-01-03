@@ -7,11 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55403300-33cd-41ee-9194-b5d96741be5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SPMOOC_1_archive.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPMMOOC-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SPMMOOC-1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPMOOC_1_archive/SPMOOC-1 archive.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1/out/artifacts/SPMOOC_1_archive/SPMOOC-1 archive.war" beforeDir="false" afterPath="$PROJECT_DIR$/SPMOOC-1 archive.war" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="319" column="11" lean-forward="true" selection-start-line="319" selection-start-column="11" selection-end-line="319" selection-end-column="11" />
+            <state relative-caret-position="396">
+              <caret line="329" column="4" selection-start-line="329" selection-start-column="4" selection-end-line="329" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -131,10 +129,6 @@
           <expand>
             <path>
               <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SPMMOOC-1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SPMMOOC-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -155,7 +149,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546512900747" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546513158203" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/project1/web" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -376,7 +370,7 @@
       <workItem from="1545571004994" duration="2087000" />
       <workItem from="1545982862191" duration="659000" />
       <workItem from="1546485953855" duration="3951000" />
-      <workItem from="1546510268784" duration="1137000" />
+      <workItem from="1546510268784" duration="1869000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1545134029595</created>
@@ -490,15 +484,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546510524917</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add build.xml">
+      <created>1546512986220</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1546512986220</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33708000" />
+    <option name="totallyTimeSpent" value="34440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49859944" visible="true" weight="0.16944024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -929,8 +929,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="319" column="11" lean-forward="true" selection-start-line="319" selection-start-column="11" selection-end-line="319" selection-end-column="11" />
+        <state relative-caret-position="396">
+          <caret line="329" column="4" selection-start-line="329" selection-start-column="4" selection-end-line="329" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -940,7 +940,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>SPMOOC-1</last-edited>
+          <last-edited>SPMOOC-1 archive</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
