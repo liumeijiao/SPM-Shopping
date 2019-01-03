@@ -105,20 +105,6 @@
   
   
   <!-- Application Server Libraries -->
-  <!-- Register Custom Compiler Taskdefs -->
-  <property name="javac2.home" value="${idea.home}/lib"/>
-  <path id="javac2.classpath">
-    <fileset dir="${javac2.home}">
-      <include name="javac2.jar"/>
-      <include name="jdom.jar"/>
-      <include name="asm-all*.jar"/>
-      <include name="forms-*.jar"/>
-    </fileset>
-  </path>
-  <target name="register.custom.compilers">
-    <taskdef name="javac2" classname="com.intellij.ant.Javac2" classpathref="javac2.classpath"/>
-    <taskdef name="instrumentIdeaExtensions" classname="com.intellij.ant.InstrumentIdeaExtensions" classpathref="javac2.classpath"/>
-  </target>
   
   <!-- Modules -->
   
@@ -178,6 +164,49 @@
   
   <patternset id="excluded.from.module.spmmooc-1">
     <patternset refid="ignored.files"/>
+    <exclude name="project1/out/**"/>
+    <exclude name="project1/out/artifacts/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/js/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/css/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/user/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/user/css/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/admin/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/admin/js/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/admin/css/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/admin/user/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/admin/admin/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/admin/order/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/admin/images/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/admin/product/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/admin/category/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/files/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/images/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/lib/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/bean/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/user/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/user/dao/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/user/service/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/user/controler/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/admin/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/admin/dao/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/admin/dao/user/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/admin/dao/admin/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/admin/dao/order/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/admin/dao/product/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/admin/dao/category/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/admin/test/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/admin/control/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/admin/service/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/WEB-INF/classes/com/bupt/project1/utils/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/META-INF/**"/>
+    <exclude name="project1/out/artifacts/SPMOOC_1/login_admin/**"/>
+    <exclude name="project1/out/production/**"/>
   </patternset>
   
   <patternset id="excluded.from.compilation.spmmooc-1">
@@ -185,33 +214,38 @@
   </patternset>
   
   <path id="spmmooc-1.module.sourcepath">
-    <dirset dir="${module.spmmooc-1.basedir}">
-      <include name="project1/src"/>
+    <dirset dir="${module.spmmooc-1.basedir}/../">
+      <include name="SPMMOOC-1/project1/src"/>
+      <include name="SPMMOOC-1"/>
     </dirset>
   </path>
   
   
   <target name="compile.module.spmmooc-1" depends="compile.module.spmmooc-1.production,compile.module.spmmooc-1.tests" description="Compile module SPMMOOC-1"/>
   
-  <target name="compile.module.spmmooc-1.production" depends="register.custom.compilers" description="Compile module SPMMOOC-1; production classes">
+  <target name="compile.module.spmmooc-1.production" description="Compile module SPMMOOC-1; production classes">
     <mkdir dir="${spmmooc-1.output.dir}"/>
-    <javac2 destdir="${spmmooc-1.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.spmmooc-1}/javac">
+    <javac destdir="${spmmooc-1.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.spmmooc-1}/javac">
       <compilerarg line="${compiler.args.spmmooc-1}"/>
       <bootclasspath refid="spmmooc-1.module.bootclasspath"/>
       <classpath refid="spmmooc-1.module.production.classpath"/>
       <src refid="spmmooc-1.module.sourcepath"/>
       <patternset refid="excluded.from.compilation.spmmooc-1"/>
-    </javac2>
+    </javac>
     
     <copy todir="${spmmooc-1.output.dir}">
       <fileset dir="${module.spmmooc-1.basedir}/project1/src">
         <patternset refid="compiler.resources"/>
         <type type="file"/>
       </fileset>
+      <fileset dir="${module.spmmooc-1.basedir}">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
     </copy>
   </target>
   
-  <target name="compile.module.spmmooc-1.tests" depends="register.custom.compilers,compile.module.spmmooc-1.production" description="compile module SPMMOOC-1; test classes" unless="skip.tests"/>
+  <target name="compile.module.spmmooc-1.tests" depends="compile.module.spmmooc-1.production" description="compile module SPMMOOC-1; test classes" unless="skip.tests"/>
   
   <target name="clean.module.spmmooc-1" description="cleanup module">
     <delete dir="${spmmooc-1.output.dir}"/>
@@ -229,7 +263,9 @@
   <target name="init.artifacts">
     <property name="artifacts.temp.dir" value="${basedir}/__artifacts_temp"/>
     <property name="artifact.output.spmooc-1" value="${basedir}/project1/out/artifacts/SPMOOC_1"/>
+    <property name="artifact.output.spmooc-1_archive" value="${basedir}/project1/out/artifacts/SPMOOC_1_archive"/>
     <mkdir dir="${artifacts.temp.dir}"/>
+    <property name="temp.jar.path.SPMOOC-1 archive.war" value="${artifacts.temp.dir}/SPMOOC-1 archive.war"/>
   </target>
   
   <target name="clean.artifact.spmooc-1" description="clean SPMOOC-1 artifact output">
@@ -277,7 +313,20 @@
     <copy file="${basedir}/project1/web/WEB-INF/web.xml" tofile="${artifact.output.spmooc-1}/WEB-INF/web.xml"/>
   </target>
   
-  <target name="build.all.artifacts" depends="artifact.spmooc-1" description="Build all artifacts">
+  <target name="artifact.spmooc-1_archive" depends="init.artifacts, artifact.spmooc-1" description="Build &#39;SPMOOC-1 archive&#39; artifact">
+    <property name="artifact.temp.output.spmooc-1_archive" value="${artifacts.temp.dir}/SPMOOC_1_archive"/>
+    <mkdir dir="${artifact.temp.output.spmooc-1_archive}"/>
+    <war destfile="${temp.jar.path.SPMOOC-1 archive.war}">
+      <zipfileset dir="${artifact.output.spmooc-1}"/>
+    </war>
+    <copy file="${temp.jar.path.SPMOOC-1 archive.war}" tofile="${artifact.temp.output.spmooc-1_archive}/SPMOOC-1 archive.war"/>
+  </target>
+  
+  <target name="build.all.artifacts" depends="artifact.spmooc-1, artifact.spmooc-1_archive" description="Build all artifacts">
+    <mkdir dir="${artifact.output.spmooc-1_archive}"/>
+    <copy todir="${artifact.output.spmooc-1_archive}">
+      <fileset dir="${artifact.temp.output.spmooc-1_archive}"/>
+    </copy>
     
     <!-- Delete temporary files -->
     <delete dir="${artifacts.temp.dir}"/>
